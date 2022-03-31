@@ -193,12 +193,16 @@ document.querySelector(".input-group #password").addEventListener("keyup",functi
 
        
         
-      </div>
-       <div class="input-group">
+<div class="input-group">
 
-        <input type="password" name="pwd-repeat" id="Re-EnterPassword" required="">
+<input type="password" name="pwd-repeat" id="Re-EnterPassword" required="">
 
-        <label for="loginPassword">Re-Enter Password</label>
+<label for="loginPassword">Re-Enter Password</label>
+</div>
+</div>
+ 
+ <input type="submit" name="signup-submit" value="Signup" class="submit-btn"><br><br>
+ <a href="index.php" class="forgot-pw">Already have an account?</a> 
          
       
       </div>
